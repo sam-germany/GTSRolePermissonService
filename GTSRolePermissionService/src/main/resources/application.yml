@@ -1,0 +1,17 @@
+
+server:
+  port: 4712
+
+
+
+
+spring:
+  datasource:
+    url: jdbc:mysql://localhost/Testing22?useUnicode=true&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=UTC
+    username: root
+    password: 1234
+    
+  jpa:
+    hibernate:
+      ddl-auto: update   
+ 
